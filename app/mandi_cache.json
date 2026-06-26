@@ -1,0 +1,29 @@
+[
+  {
+    "commodity": "Rice",
+    "market": "Malda",
+    "district": "Malda",
+    "state": "West Bengal",
+    "min_price": "1800",
+    "max_price": "2200",
+    "modal_price": "2000"
+  },
+  {
+    "commodity": "Wheat",
+    "market": "Malda",
+    "district": "Malda",
+    "state": "West Bengal",
+    "min_price": "2000",
+    "max_price": "2400",
+    "modal_price": "2200"
+  },
+  {
+    "commodity": "Potato",
+    "market": "Malda",
+    "district": "Malda",
+    "state": "West Bengal",
+    "min_price": "800",
+    "max_price": "1200",
+    "modal_price": "1000"
+  }
+]
