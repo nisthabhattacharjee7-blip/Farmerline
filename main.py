@@ -14,6 +14,10 @@ register_handlers(app)
 
 if __name__ == "__main__":
     start_scheduler(app)
+    # TEMP: trigger briefing immediately for screenshot — remove after
+    from app.scheduler import send_morning_briefing
+    send_morning_briefing(app)
+    
     handler = SocketModeHandler(app, os.environ["SLACK_APP_TOKEN"])
     print("⚡ FarmerLine is running!")
     handler.start()
